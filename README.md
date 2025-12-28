@@ -37,7 +37,7 @@ A cutting-edge web application that transforms your webcam into a magical contro
 
 ## Live Demo
 
-Experience VoxSpace live: **[voxspace.vercel.app](https://voxspace.vercel.app)**
+Experience VoxSpace live: **[vox-space-zeta.vercel.app](https://vox-space-zeta.vercel.app)**
 
 ## Screenshots
 
