@@ -1,0 +1,7 @@
+{
+  "name": "VoxSpace",
+  "description": "A minimalist, interactive 3D particle system controlled by hand gestures. Morph particles into shapes and text using computer vision.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
