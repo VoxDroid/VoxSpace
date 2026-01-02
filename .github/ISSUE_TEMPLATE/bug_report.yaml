@@ -1,0 +1,68 @@
+name: Bug Report
+description: Report a bug in VoxSpace
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please provide as much detail as possible to help us resolve it.
+  - type: input
+    id: component
+    attributes:
+      label: Affected Component
+      description: Which component or feature is affected?
+      placeholder: e.g., HandVis, ParticleSystem, WebcamHandler
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the bug.
+      placeholder: Describe the issue, including what you expected and what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the bug.
+      placeholder: |
+        1. Open the application
+        2. Navigate to [specific page/component]
+        3. Perform [action]
+        4. Observe the error...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Your environment details.
+      placeholder: |
+        - OS: [e.g., Windows 11]
+        - Browser: [e.g., Chrome 120]
+        - Node.js Version: [e.g., 18.17.0]
+        - Dependencies: [e.g., React 18, Vite 4.3]
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or Error Messages
+      description: Paste any relevant error messages or console logs.
+      placeholder: |
+        ```
+        Error: [error message]
+        at [stack trace]
+        ```
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other context or screenshots about the bug.
+    validations:
+      required: false

@@ -1,0 +1,52 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for VoxSpace
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature! Please provide details to help us understand your idea.
+  - type: input
+    id: component
+    attributes:
+      label: Related Component (if applicable)
+      description: If this enhances an existing component, specify which one.
+      placeholder: e.g., HandVis, ParticleSystem
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the feature you're proposing.
+      placeholder: I suggest adding [feature description] to enhance [purpose].
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Explain the problem this solves or its real-world application.
+      placeholder: This feature would help users [benefit] by [functionality].
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Proposed Implementation
+      description: Provide a rough idea of how this could be implemented.
+      placeholder: |
+        The feature could be implemented by:
+        - Adding a new component [ComponentName]
+        - Integrating with [API/library]
+        - Modifying existing [component/service]
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other context, references, or examples.
+    validations:
+      required: false
